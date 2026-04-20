@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.db
+*.log
+
+# Node
+node_modules/
+dist/
+.pnp
+.pnp.js
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+playwright/.cache/
+playwright/browser_data/
+playwright/browser_data_fresh/
+
+# Logs
+*.log
+backend_*.log
+frontend*.log
+uvicorn.log
